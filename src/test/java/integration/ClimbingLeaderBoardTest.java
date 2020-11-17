@@ -20,4 +20,11 @@ public class ClimbingLeaderBoardTest {
                 new int[]{50, 65, 77, 90, 102});
         assertArrayEquals(solution, new int[]{6, 5, 4, 2, 1});
     }
+
+    @Test
+    public void basicCase3() {
+        int[] solution = ClimbingLeaderBoard.climbingLeaderboard(new int[]{100, 90, 90, 80, 75, 60},
+                new int[]{50, 65, 77, 90, 102});
+        assertArrayEquals(solution, new int[]{6, 5, 4, 2, 1});
+    }
 }
